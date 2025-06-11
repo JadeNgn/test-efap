@@ -1,11 +1,125 @@
-body{
-background-color: #f9dbbd;
+body {
+    margin: 0;
+    font-family: 'Jost';
 }
 
-h1{
-color: goldenrod;
+
+.banner {
+background-image: url(https://sitzplatzbrav.de/wp-content/uploads/2019/09/IMG_0025-1-1024x683.jpg);
+background-size: cover;
+background-position: center;
+height: 900px;
+color: white;
+padding: 24px;
+}
+.banner h1 {
+   font-size: 60px;
+   padding-top: 160px;
+   font-weight: normal;
+}
+.banner h3 {
+  font-weight: normal;
+}
+.my_class_0048 {
+    text-decoration: none;
+    color: grey;
+    font-size: 60px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 27px;
+}
+.Contribuer {
+    display: inline-block;
+    text-decoration: none;
+  font-size: 24px;
+  background-color: #132a13;
+  color: white;
+  padding: 6px 25px;
+  text-align: center;
+  font-weight: bold;
 }
 
-img {
-width: 200px;
+
+.Page2 {
+    height: 100vh;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+    color: black;
+    text-align: center;
+}
+.Page2 h1 {
+    font-size: 40px;
+    font-weight: normal;
+    font-weight: bold;
+}
+.Page2 h3 {
+  font-weight: normal;
+}
+
+
+.Page3{
+background-color: #132a13;
+color: white;
+text-align: center;
+}
+.Page3 h3 {
+  font-weight: normal;
+}
+.Titre {
+padding-top: 90px;
+font-size: 20px;
+}
+.TroisPremiersChiens {
+  width: 200px;
+  height: auto;
+  display: flex;
+  gap: 120px;
+  padding-left: 250px;
+}
+.TroisDerniersChiens {
+  width: 200px;
+  height: auto;
+  display: flex;
+  gap: 120px;
+  padding-left: 250px;
+}
+.Renseignement {
+  display: inline-block;
+  font-size: 20px;
+  padding-bottom: 90px;
+  background-color: white;
+  color: #132a13;
+  padding: 20px 40px;
+  text-align: center;
+}
+.Demande {
+  color: #132a13;
+  text-decoration: none;
+}
+
+
+.Page4 .Logo {
+   padding-top: 25px;
+   display: flex;
+    justify-content: space-between;
+}
+.Page4 .navbar {
+  display: flex;
+    justify-content: space-between;
+}
+.Colonne {
+    color: #132a13;
+    font-size: 20px;
+}
+.Fin {
+  display: flex;
+  padding-left: 25px;
+}
+.Square {
+  color: #132a13;
 }
